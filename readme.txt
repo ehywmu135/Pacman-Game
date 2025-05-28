@@ -1,4 +1,4 @@
-# Pacman Game
+#Pacman Game
 
 A classic Pacman game clone built using C# and the .NET Framework.  
 Developed as part of my computer science studies to practice object-oriented programming, event-driven logic, and game mechanics.
@@ -12,8 +12,7 @@ Developed as part of my computer science studies to practice object-oriented pro
 - Keyboard input handling
 
 ## Technologies Used
-- Language: C#
-- Framework: .NET (WinForms)
+- Language: C++
 - IDE: Visual Studio
 
 ## How to Run
@@ -21,8 +20,6 @@ Developed as part of my computer science studies to practice object-oriented pro
 2. Open the solution file (`.sln`) in Visual Studio.
 3. Build the project and run.
 
-## Screenshots
-*(Add game screenshots here if available)*
 
 ## Author
 Ohad Goldberg

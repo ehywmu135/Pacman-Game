@@ -12,7 +12,7 @@ Developed as part of my computer science studies to practice object-oriented pro
 - Keyboard input handling
 
 ## Technologies Used
-- Language: C++
+- Language: C++,HTML,C
 - IDE: Visual Studio
 
 ## How to Run

@@ -1,0 +1,75 @@
+﻿  Ghost.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\ghost.h(11,6): error C2555: 'ghost::getDirectionFromKey': overriding virtual function return type differs and is not covariant from 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(48): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\ghost.h(9,7): error C2664: 'Entity::Entity(int,int,char,Entity::Direction)': cannot convert argument 4 from 'int' to 'Entity::Direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\ghost.h(9,38): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(29,5): message : see declaration of 'Entity::Entity'
+  main.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(11,6): error C2555: 'pacman::getDirectionFromKey': overriding virtual function return type differs and is not covariant from 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(47): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(9,8): error C2664: 'Entity::Entity(int,int,char,Entity::Direction)': cannot convert argument 4 from 'int' to 'Entity::Direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(9,28): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(29,5): message : see declaration of 'Entity::Entity'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\Ghost.h(11,6): error C2555: 'ghost::getDirectionFromKey': overriding virtual function return type differs and is not covariant from 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(48): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\Ghost.h(9,7): error C2664: 'Entity::Entity(int,int,char,Entity::Direction)': cannot convert argument 4 from 'int' to 'Entity::Direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\Ghost.h(9,38): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(29,5): message : see declaration of 'Entity::Entity'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\main.cpp(3,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  pacman.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(11,6): error C2555: 'pacman::getDirectionFromKey': overriding virtual function return type differs and is not covariant from 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(47): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(9,8): error C2664: 'Entity::Entity(int,int,char,Entity::Direction)': cannot convert argument 4 from 'int' to 'Entity::Direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(9,28): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(29,5): message : see declaration of 'Entity::Entity'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.cpp(7,57): error C2664: 'void Point::move(int,char)': cannot convert argument 1 from 'Entity::Direction' to 'int'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.cpp(7,37): message : This conversion requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\Point.h(13,7): message : see declaration of 'Point::move'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.cpp(15,30): error C2248: 'Entity::NUM_KEYS': cannot access private member declared in class 'Entity'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(9): message : see declaration of 'Entity::NUM_KEYS'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(7): message : see declaration of 'Entity'
+  point.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  entity.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.cpp(33,48): error C2556: 'int Entity::getDirectionFromKey(char) const': overloaded function differs only by return type from 'Entity::Direction Entity::getDirectionFromKey(char) const'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(47): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.cpp(33,13): error C2371: 'Entity::getDirectionFromKey': redefinition; different basic types
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(47): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.cpp(34,40): error C2556: 'int Entity::getDirectionFromKey(void) const': overloaded function differs only by return type from 'Entity::Direction Entity::getDirectionFromKey(void) const'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(48): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.cpp(34,13): error C2371: 'Entity::getDirectionFromKey': redefinition; different basic types
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(48): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.cpp(36,1): error C2556: 'int Entity::getCurrentDirection(void) const': overloaded function differs only by return type from 'Entity::Direction Entity::getCurrentDirection(void) const'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(44): message : see declaration of 'Entity::getCurrentDirection'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.cpp(35,13): error C2371: 'Entity::getCurrentDirection': redefinition; different basic types
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(44): message : see declaration of 'Entity::getCurrentDirection'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.cpp(39,36): error C2511: 'void Entity::setDirection(int)': overloaded member function not found in 'Entity'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(7): message : see declaration of 'Entity'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.cpp(40,2): error C2597: illegal reference to non-static member 'Entity::direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(24): message : see declaration of 'Entity::direction'
+  thePacmanGame.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(11,6): error C2555: 'pacman::getDirectionFromKey': overriding virtual function return type differs and is not covariant from 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(47): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(9,8): error C2664: 'Entity::Entity(int,int,char,Entity::Direction)': cannot convert argument 4 from 'int' to 'Entity::Direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\pacman.h(9,28): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(29,5): message : see declaration of 'Entity::Entity'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\Ghost.h(11,6): error C2555: 'ghost::getDirectionFromKey': overriding virtual function return type differs and is not covariant from 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(48): message : see declaration of 'Entity::getDirectionFromKey'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\Ghost.h(9,7): error C2664: 'Entity::Entity(int,int,char,Entity::Direction)': cannot convert argument 4 from 'int' to 'Entity::Direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\Ghost.h(9,38): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(29,5): message : see declaration of 'Entity::Entity'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\thePacmanGame.cpp(57,7): error C2440: '=': cannot convert from 'Entity::Direction' to 'int'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\thePacmanGame.cpp(57,47): message : This conversion requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\thePacmanGame.cpp(58,34): error C2664: 'void Entity::setDirection(Entity::Direction)': cannot convert argument 1 from 'int' to 'Entity::Direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\thePacmanGame.cpp(58,31): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(46,10): message : see declaration of 'Entity::setDirection'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\thePacmanGame.cpp(110,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\thePacmanGame.cpp(159,41): error C2664: 'void Entity::setDirection(Entity::Direction)': cannot convert argument 1 from '<unnamed-enum-INIT_SCORE>' to 'Entity::Direction'
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\thePacmanGame.cpp(159,30): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C++\pacman project\entity.h(46,10): message : see declaration of 'Entity::setDirection'
+  Generating Code...
